@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    margin: 10px 50px;
+    font-size: 24px;
+    color: black;
+    border-bottom: 1px solid white;
+}
+
+header ul li a:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+
+.logo {
+    width: 80px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.villagers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width:300px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card img {
+    width: 100px;
+}
